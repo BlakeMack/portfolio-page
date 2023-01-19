@@ -1,32 +1,21 @@
+import Ecommerce from "./img/ecommerce.png"
+import Aiimage from "./img/ai-image-generator.png"
+import Quizzical from "./img/quizzical.png"
+
 export const products = [
   {
     id: 1,
-    img: "/home/blake/code/BlakeMack/Junior Dev resources/portfolio-react/my-app/src/img/logo192.png",
-    link: "https://github.com/BlakeMack",
+    img: Ecommerce,
+    link: "https://react-picture-ecommerce-app.netlify.app/",
   },
   {
     id: 2,
-    img: "/home/blake/code/BlakeMack/Junior Dev resources/portfolio-react/my-app/src/img/logo192.png",
-    link: "https://github.com/BlakeMack",
+    img: Quizzical,
+    link: "https://quzzical-react.netlify.app/",
   },
   {
     id: 3,
-    img: "/home/blake/code/BlakeMack/Junior Dev resources/portfolio-react/my-app/src/img/logo192.png",
-    link: "https://github.com/BlakeMack",
-  },
-  {
-    id: 4,
-    img: "/home/blake/code/BlakeMack/Junior Dev resources/portfolio-react/my-app/src/img/logo192.png",
-    link: "https://github.com/BlakeMack",
-  },
-  {
-    id: 5,
-    img: "/home/blake/code/BlakeMack/Junior Dev resources/portfolio-react/my-app/src/img/logo192.png",
-    link: "https://github.com/BlakeMack",
-  },
-  {
-    id: 6,
-    img: "/home/blake/code/BlakeMack/Junior Dev resources/portfolio-react/my-app/src/img/logo192.png",
-    link: "https://github.com/BlakeMack",
+    img: Aiimage,
+    link: "https://open-ai-image-generator.onrender.com/",
   },
 ];
