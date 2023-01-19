@@ -23,3 +23,13 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 480px) {
+  .plist {
+    padding: 10px;
+  }
+
+  .pl-text {
+    width: 100%;
+  }
+}
