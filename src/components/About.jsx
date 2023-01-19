@@ -1,7 +1,11 @@
 import React from 'react'
 import "./About.css"
 import MusicImg from "../img/music.jpg"
-import SmallLogo from "../img/logo192.png"
+import ReactLogo from "../img/logo192.png"
+import JsLogo from "../img/javascript-logo.png"
+import CssLogo from "../img/css.png"
+import RailsLogo from "../img/rails.png"
+import HtmlLogo from "../img/html.png"
 
 function About() {
   return (
@@ -19,12 +23,23 @@ function About() {
         </p>
         <p className="a-desc">
         Web development graduate and teaching assistant, currently looking for full time roles to implement my acquired skills on real world projects and progress further as a developer, while contributing positively to an organisation.
-        Current Tech stack: React, Javascript(ES6), Ruby on Rails, Ruby, HTML, CSS, Git, Heroku
+        Current Tech stack: React, Javascript(ES6), Ruby on Rails, Ruby, HTML, CSS, Git
         </p>
-        <div className="a-award">
-          <img src={SmallLogo} alt="" className="a-award-img" />
-          <div className="a-award-text">
-            Lorem ipsum dolor sit amet consectetur
+        <div className='a-award-container'>
+          <div className="a-award">
+            <img src={ReactLogo} alt="" className="a-award-img" />
+          </div>
+          <div className="a-award">
+            <img src={RailsLogo} alt="" className="a-award-img" />
+          </div>
+          <div className="a-award">
+            <img src={JsLogo} alt="" className="a-award-img" />
+          </div>
+          <div className="a-award">
+            <img src={HtmlLogo} alt="" className="a-award-img" />
+          </div>
+          <div className="a-award">
+            <img src={CssLogo} alt="" className="a-award-img" />
           </div>
         </div>
       </div>
