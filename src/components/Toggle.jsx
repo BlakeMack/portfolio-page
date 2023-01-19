@@ -8,13 +8,13 @@ const Toggle = () => {
   const darkmode = theme.state.darkMode
 
   const handleClick = () => {
-    theme.dispatch("TOGGLE")
+    theme.dispatch({type: "TOGGLE"})
   }
   return (
     <div className='toggle'>
       <img src={Sun} alt="" className="t-icon" />
       <img src={Moon} alt="" className="t-icon" />
-      <div className="t-button" onClick={handleClick}></div>
+      <div className="t-button" onClick={handleClick} style={{left: darkmode ? 0 : 25 }}></div>
     </div>
   )
 }
