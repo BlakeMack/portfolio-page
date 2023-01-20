@@ -18,11 +18,11 @@ function About() {
       </div>
       <div className="a-right">
         <h1 className="a-title">About me</h1>
-        <p className="a-sub">
+        {/* <p className="a-sub">
           Lorem ipsum dolor sit amet consectetur
-        </p>
+        </p> */}
         <p className="a-desc">
-        Web development graduate and teaching assistant, currently looking for full time roles to implement my acquired skills on real world projects and progress further as a developer, while contributing positively to an organisation.
+        Web development graduate and teaching assistant, currently looking for full time roles to implement my acquired skills on real world projects and progress further as a developer, while contributing positively to an organisation. <br></br>
         Current Tech stack: React, Javascript(ES6), Ruby on Rails, Ruby, HTML, CSS, Git
         </p>
         <div className='a-award-container'>
