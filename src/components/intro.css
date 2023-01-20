@@ -1,6 +1,5 @@
 .intro {
   display: flex;
-  height: 100vh;
 }
 
 .intro-right {
@@ -78,6 +77,7 @@
   height: 100%;
   object-fit: contain;
   position: absolute;
+  pointer-events: none;
 }
 
 .i-bg {
@@ -90,6 +90,21 @@
   right: 0;
 }
 /* flexbox display: flex align-items: center can be used to center a div with only text inside  */
+
+@media (prefers-reduced-motion: no-preference) {
+  .i-img {
+    animation: i-img-spin infinite 40s linear;
+  }
+}
+
+@keyframes i-img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @media screen and (max-width: 480px) {
   .intro{
