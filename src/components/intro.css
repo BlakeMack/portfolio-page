@@ -91,6 +91,10 @@
 }
 /* flexbox display: flex align-items: center can be used to center a div with only text inside  */
 
+.i-desc {
+  font-size: 1.5rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .i-img {
     animation: i-img-spin infinite 40s linear;
@@ -125,5 +129,15 @@
 
   .i-title-item {
     justify-content: center;
+  }
+
+  .i-desc {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .i-title-wrapper{
+    width: max-content;
   }
 }

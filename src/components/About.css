@@ -18,14 +18,14 @@
 
 .a-card.bg {
   position: absolute;
-  top: 50px;
+  top: 140px;
   left: 50px;
   background-color: #333;
 }
 
 .a-card {
   width: 60%;
-  height: 70vh;
+  height: 50vh;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
@@ -50,38 +50,6 @@
 
 .a-desc {
   font-weight: 300;
-}
-
-@media screen and (min-width: 480px) {
-  .about {
-    height: 90vh;
-  }
-  /* changed from 100vh to leave less white space between components */
-}
-
-@media screen and (max-width: 480px) {
-  .about {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  .a-left{
-    width: 100%;
-  }
-
-  .a-card {
-    height: 30vh;
-  }
-
-  .a-card.bg, .a-award {
-    display: none;
-  }
-
-  .a-right {
-    padding: 20px;;
-  }
-
 }
 
 .a-card img {
@@ -144,4 +112,70 @@
 .a-card img {
   position: absolute;
   left: 0;
+}
+
+.a-desc {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 480px) and (max-width: 1600px) {
+  .about {
+    height: 90vh;
+  }
+}
+
+@media (min-width: 1601px) {
+  .about {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .a-left{
+    width: 100%;
+  }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg, .a-award {
+    display: none;
+  }
+
+  .a-right {
+    padding: 20px;;
+  }
+
+  .a-desc {
+    font-size: 1rem;
+  }
+
+}
+
+
+@media screen and (max-width: 830px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .a-left{
+    width: 100%;
+  }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg {
+    display: none;
+  }
+
 }
