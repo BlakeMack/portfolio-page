@@ -13,7 +13,7 @@ const ProductList = () => {
       <div className="pl-text">
         <h1 className="pl-title">Projects</h1>
         <p className="pl-desc">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum cum error itaque optio quibusdam ad natus eveniet accusantium, odit consectetur. Ratione dolore molestias beatae ducimus minima non laboriosam, saepe libero.
+          Click on any of the project images below to be taken to its page. The frontend projects below were built with react, react-router-dom, react context, aswell as the OTDB and OPENAI API.
         </p>
       </div>
       <div className='pl-list'>
