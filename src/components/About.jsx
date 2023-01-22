@@ -1,6 +1,9 @@
 import React from 'react'
 import "./About.css"
 import MusicImg from "../img/music.jpg"
+import StageImg from "../img/stage.jpg"
+import CodeImg from "../img/code.jpg"
+import FilmImg from "../img/film.jpg"
 import ReactLogo from "../img/logo192.png"
 import JsLogo from "../img/javascript-logo.png"
 import CssLogo from "../img/css.png"
@@ -13,7 +16,10 @@ function About() {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img src={MusicImg} alt="" className="a-img"/>
+          <img src={MusicImg} alt="" />
+          <img src={StageImg} alt="" />
+          <img src={CodeImg} alt="" />
+          <img src={FilmImg} alt="" />
         </div>
       </div>
       <div className="a-right">
