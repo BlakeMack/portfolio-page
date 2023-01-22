@@ -29,7 +29,7 @@ function About() {
         </p> */}
         <p className="a-desc">
         Web development graduate and teaching assistant, currently looking for full time roles to implement my acquired skills on real world projects and progress further as a developer, while contributing positively to an organisation.
-        I have many creative interests such as music production, audio editing, and a love for film and stage. Going forward I hope to find more ways to integrate these interests into my personal projects. <br></br> <br></br>
+        I have many creative interests such as music production, audio editing, and a love for film and stage. Going forward I hope to find more ways to integrate these interests into my projects. <br></br> <br></br>
         Current Tech stack: React, Javascript(ES6), Ruby on Rails, Ruby, HTML, CSS, Git
         </p>
         <div className='a-award-container'>
