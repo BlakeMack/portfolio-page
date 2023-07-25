@@ -16,8 +16,8 @@ const darkmode = theme.state.darkMode;
     <div className="App" style={{backgroundColor: darkmode ? "#222" : "white", color: darkmode && "white" }}>
       <Toggle />
       <Intro />
-      <About />
       <ProductList />
+      <About />
       <Contact />
     </div>
   );

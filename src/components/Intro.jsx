@@ -21,7 +21,7 @@ const Intro = () => {
               </div>
             </div>
             <div className="i-desc">
-              I am a London based Software Engineer with a passion for building modern web products and user interfaces, and acquiring new skills and technologies.
+              I am a London based Software Engineer with a passion for solving problems, and creating digital solutions in the form of web products.
             </div>
           </div>
         </div>
