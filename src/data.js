@@ -8,21 +8,25 @@ export const products = [
   {
     id: 1,
     img: Fourdoption,
+    projectName: "Fourdoption",
     link: "https://four-doption.herokuapp.com/",
   },
   {
     id: 2,
     img: tgtheatre,
+    projectName: "TgTheatre",
     link: "https://tgtheatre.co.uk/",
   },
   {
     id: 3,
     img: Aiimage,
+    projectName: "Ai Image Generator",
     link: "https://open-ai-image-generator.onrender.com/",
   },
   {
     id: 4,
     img: Quizzical,
+    projectName: "Quizzical",
     link: "https://quzzical-react.netlify.app/",
   },
 ];

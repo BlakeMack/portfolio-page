@@ -7,7 +7,7 @@ import { ScrollClass } from '../utils/scroll-class'
 const ProductList = () => {
 
   const productlist = products.map((item) => (
-    <Product key={item.id} img={item.img} link={item.link} name={ScrollClass(item.id)}/>
+    <Product key={item.id} img={item.img} link={item.link} name={ScrollClass(item.id)} projectName={item.projectName}/>
   ))
   return (
     <div className='plist'>
