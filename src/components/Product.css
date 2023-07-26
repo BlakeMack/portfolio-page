@@ -16,6 +16,11 @@
   z-index: 2;
 }
 
+.p-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .p-circle {
   width: 6px;
   height: 6px;
@@ -39,7 +44,6 @@
 
 @media screen and (max-width: 480px) {
   .product {
-    width: 40%;
     height: 20vh;
   }
 }
