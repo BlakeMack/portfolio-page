@@ -14,7 +14,7 @@ export const products = [
   {
     id: 2,
     img: tgtheatre,
-    projectName: "TgTheatre",
+    projectName: "Type of Guy Theatre",
     link: "https://tgtheatre.co.uk/",
   },
   {
